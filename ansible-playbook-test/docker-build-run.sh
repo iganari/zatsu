@@ -2,7 +2,7 @@
 
 set -xeu
 
-_I_TAG='zatsu-user'
+_I_TAG='zatsu-ansible'
 
 set +eu
 docker rmi ${_I_TAG}
