@@ -1,0 +1,18 @@
+---
+#
+# roles/user/vars/main.yml
+#
+
+user_iganari:
+  name: iganari
+  uid: 710
+  group: iganari
+  gid: 710
+  password: igaguri7986
+
+user_ncadmin:
+  name: ncadmin
+  uid: 4520
+  group: ncadmin
+  gid: 4520
+  password: hogehoge

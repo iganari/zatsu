@@ -1,0 +1,38 @@
+---
+#
+# roles/user/tasks/main.yml
+#
+
+##### for iganari #####
+- name: create groups
+  group:
+    name: "{{ user_iganari.group }}"
+    gid: "{{ user_iganari.gid }}"
+
+- name: make users
+  user:
+    state: present
+    name: "{{ user_iganari.name }}"
+    group: "{{ user_iganari.group }}"
+    uid: "{{ user_iganari.uid }}"
+    password: "{{ user_iganari.password }}"
+    shell: /bin/bash
+
+##### for iganari #####
+
+##### for ncadmin #####
+- name: create groups
+  group:
+    name: "{{ user_ncadmin.group }}"
+    gid: "{{ user_ncadmin.gid }}"
+
+- name: make users
+  user:
+    state: present
+    name: "{{ user_ncadmin.name }}"
+    group: "{{ user_ncadmin.group }}"
+    uid: "{{ user_ncadmin.uid }}"
+    password: "{{ user_ncadmin.password }}"
+    shell: /bin/bash
+
+##### for ncadmin #####

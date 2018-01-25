@@ -1,0 +1,9 @@
+---
+#
+# servers.yml
+#
+
+- hosts: local
+  roles:
+    - sudo
+    - user
