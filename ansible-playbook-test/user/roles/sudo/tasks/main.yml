@@ -1,0 +1,9 @@
+---
+#
+# roles/sudo/tasks/main.yml
+#
+
+- name: install sudo
+  yum:
+    name: sudo
+    state: latest
