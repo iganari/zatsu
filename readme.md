@@ -4,12 +4,4 @@
 
 1
 
-![](https://docs.google.com/presentation/d/1snQvpTlYbT_HQXr6Qi4D5UTbYJ0U-0PuaGBRNa-PSOQ/edit?usp=sharing)
-
-2
-
-![](https://drive.google.com/drive/u/0/folders/1RDZa60m2CJujq6Y3xBrRTqYAtQQHlRov)
-
-3
-
-![](https://docs.google.com/drawings/d/1daXoL1fjQQgFlpr274n7WB9aDJsSIGSVbIVrKCqt7AU/edit?usp=sharing)
+![](https://docs.google.com/drawings/d/e/2PACX-1vTFd21hzXtpC-dQjYNvCdLyZpvrpyl3G2DKxMMjlizxifFmhDtBleYU6jZeG4W8r4730l6Poj6iisJl/pub?w=1440&h=1080)
