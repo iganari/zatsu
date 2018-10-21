@@ -9,3 +9,7 @@
 2
 
 ![](https://drive.google.com/drive/u/0/folders/1RDZa60m2CJujq6Y3xBrRTqYAtQQHlRov)
+
+3
+
+![](https://docs.google.com/drawings/d/1daXoL1fjQQgFlpr274n7WB9aDJsSIGSVbIVrKCqt7AU/edit?usp=sharing)
