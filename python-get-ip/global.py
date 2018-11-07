@@ -4,7 +4,7 @@
 import requests
 
 
-def inet_ip():
+def chk_ip():
 
     top = requests.get('http://inet-ip.info')
     ip = requests.get('http://inet-ip.info/ip')
@@ -14,11 +14,12 @@ def inet_ip():
     print('/ip   is :', ip.text)
     print('/json is :', json.text)
    
+    return
 
 
 def main():
 
-    inet_ip()
+    chk_ip()
 
 if __name__ == '__main__':
     main()
