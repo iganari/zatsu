@@ -29,7 +29,8 @@ https://drive.google.com/a/${APP_DOMAIN}/file/d/${FILE_ID}/view?usp=sharing
 ![](https://drive.google.com/drive/u/0/folders/16poLQNzJaNfQd4xrIlspsmXfD_Qfr2o4)
 ![](https://docs.google.com/drawings/d/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/edit?usp=sharing)
 
-![](https://docs.google.com/drawings/d/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/edit?usp=sharing)
+![](https://docs.google.com/drawings/d/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/preview,900,600,yes)
+![](https://docs.google.com/drawings/d/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/preview,yes)
 ![](https://drive.google.com/open?id=13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME)
 ![](https://drive.google.com/uc?export=view&id=13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME)
 
