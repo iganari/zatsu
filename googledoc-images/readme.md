@@ -1,4 +1,9 @@
-# Google Drive にて作成した図(image) を GitHub上で見れるようにしたい
+# Google Drive にて作成した図(drawings) を GitHub上で見れるようにしたい
+
+## :warning: 注意点
+
++ :no_good: Google Drive上に保存したイメージファイル
++ :ok_woman: Google Drive上にて作成・保存した図形描画(drawings)
 
 ## やり方
 
