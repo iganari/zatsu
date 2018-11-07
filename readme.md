@@ -18,5 +18,5 @@ WIP
 
 + 目的
     + Pythonを使ってIPアドレスを取得します
-+ Qiita
++ 関連記事
     + WIP
