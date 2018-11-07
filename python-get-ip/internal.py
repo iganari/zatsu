@@ -10,11 +10,17 @@ def chk_01():
     hostname_01 = socket.gethostname()
     print(hostname_01)
 
+    return
+
+
 # Get IP
 def chk_02():
     
     ip = socket.gethostbyname(socket.gethostname())
     print(ip)
+
+    return
+
 
 # Get IPs
 def chk_03():
@@ -24,27 +30,45 @@ def chk_03():
     print(ips[2])         # This is IPs == list
     print(ips[2][1])
 
+    return
+
 # 
 def chk_04():
 
     ips = socket.getaddrinfo(socket.gethostname(), None)
     print(ips)
 
+    return
+
+
+def chk_05():
+
+    ips = socket.getaddrinfo(socket.gethostname(), None)
+
+    for line in range(len(ips)):
+        print(ips[line])
+   
+    return
+   
+
 # main
 def main():
 
     # Checks
-    print('chk 01') 
+    print('\nchk 01') 
     chk_01()
 
-    print('chk 02')
+    print('\nchk 02')
     chk_02()
 
-    print('chk 03')
+    print('\nchk 03')
     chk_03()
 
-    print('chk 04')
+    print('\nchk 04')
     chk_04()
+
+    print('\nchk 05')
+    chk_05()
 
 if __name__ == '__main__':
     main()
