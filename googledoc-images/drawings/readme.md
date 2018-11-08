@@ -22,16 +22,15 @@
 
 ### 4. 以下のようなポップアップが出てくるので、 `公開` をクリック
 
-image04
+![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-04.png)
 
 ### 5. 以下のようなポップアップが出てくるので、 `OK` をクリック
 
-image05
+![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-05.png)
 
 ### 6. リンクが生成されるので、それをコピーする
 
-
-image06
+![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-06.png)
 
 ```
 ![](コピーしたURL)
