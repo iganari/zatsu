@@ -32,9 +32,15 @@
 
 ![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-06.png)
 
+### 7. コピーしたURLをMarkdownに貼り付ける
+
++ 形式
+
 ```
 ![](コピーしたURL)
 ```
+
++ デモ
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTVlxu8AkysmuMcEc1p7jikU_QLwesyOITyiU5-n5XYIqmhQir4RzfmKkvIK14Mi17xZeMdrhgbi75h/pub?w=960&h=720)
 
