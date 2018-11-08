@@ -11,12 +11,12 @@
 ![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-01.png)
 
 
-### 
+### 2. ツールバーから、 `ファイル` を選択
 
 ![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-02.png)
 
 
-### 
+### 3. `ウェブに公開` を選択
 
 ![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-03.png)
 
