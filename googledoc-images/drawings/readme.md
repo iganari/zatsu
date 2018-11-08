@@ -20,6 +20,18 @@
 
 ![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-03.png)
 
+### 4. 以下のようなポップアップが出てくるので、 `公開` をクリック
+
+image04
+
+### 5. 以下のようなポップアップが出てくるので、 `OK` をクリック
+
+image05
+
+### 6. リンクが生成されるので、それをコピーする
+
+
+image06
 
 ```
 ![](コピーしたURL)
