@@ -52,3 +52,8 @@ https://drive.google.com/a/${APP_DOMAIN}/file/d/${FILE_ID}/view?usp=sharing
 
 
 ![](https://docs.google.com/drawings/d/e/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/pub?w=1440&h=1080)
+
+`https://docs.google.com/a/google.com/drawings/d/12345/edit,`
+
+`![drawing](https://docs.google.com/drawings/d/12345/export/png)`
+![drawing](https://docs.google.com/drawings/d/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/export/png)
