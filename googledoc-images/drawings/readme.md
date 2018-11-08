@@ -8,11 +8,12 @@
 
 ### 1. Google Drive にて、図形を作成
 
-wip
+![](images/drawing-01.png)
 
 
 ### 
 
+![](images/drawing-02.png)
 
 
 
