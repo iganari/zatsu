@@ -58,3 +58,4 @@ https://drive.google.com/a/${APP_DOMAIN}/file/d/${FILE_ID}/view?usp=sharing
 `![drawing](https://docs.google.com/drawings/d/12345/export/png)`
 ![drawing](https://docs.google.com/drawings/d/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/export/png)
 ![drawing](https://docs.google.com/drawings/d/13KsSYhAy8rf1JfZCMTyI5owf8T-wlR3pzzZeROgA9ME/export/png)
+![](https://docs.google.com/drawings/d/e/2PACX-1vTP_LM0E877HtyjNGtYGq4oR2wS0ietEMwVkJ02Ynbbj7TxSznp5l6c4H1H_ESeK6zv_nmLJGLWEvUD/pub?w=1440&h=1080)
