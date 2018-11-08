@@ -8,12 +8,12 @@
 
 ### 1. Google Drive にて、図形を作成
 
-![](images/drawing-01.png)
+![](https://github.com/iganari/zatsu/blob/modify-readme-only/googledoc-images/drawings/images/drawings-01.png)
 
 
 ### 
 
-![](images/drawing-02.png)
+![](./images/drawing-02.png)
 
 
 
