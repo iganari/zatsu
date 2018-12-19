@@ -1,4 +1,4 @@
-# Prometheus on Docker Compose Ver 1
+# Prometheus on Docker Compose part 1
 
 + ファイルモードを変更する
 
