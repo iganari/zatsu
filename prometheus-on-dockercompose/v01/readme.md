@@ -40,4 +40,4 @@ docker-compose rm (-f)
 
 ## イメージ
 
-![](https://docs.google.com/drawings/d/e/2PACX-1vRg7a78VqSl9cPP7OfUyEoS75M0mfncgP71qLVe-pytVQFIFGIiR2P0vU3Y6H0ffN-7QBAbph4Bg4Zw/pub?w=228&h=157)
+![](https://docs.google.com/drawings/d/e/2PACX-1vRg7a78VqSl9cPP7OfUyEoS75M0mfncgP71qLVe-pytVQFIFGIiR2P0vU3Y6H0ffN-7QBAbph4Bg4Zw/pub?w=364&h=337)
