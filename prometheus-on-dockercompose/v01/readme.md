@@ -1,5 +1,11 @@
 # Prometheus on Docker Compose Ver 1
 
++ ファイルモードを変更する
+
+```
+chmod 0777 -R svr/prometheus
+```
+
 + 起動
 
 ```
