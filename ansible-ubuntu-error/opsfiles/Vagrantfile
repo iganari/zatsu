@@ -1,0 +1,62 @@
+# $script = <<SCRIPT
+#   cd /develop/vg-ubuntu18/
+#   cd opsfiles/vagrant
+#   /bin/bash init-pubkey.sh
+#   # ansible-playbook -i inventoryfile/$1 servers.yml -l $1
+#   # ansible-playbook -i inventoryfile/$1 servers-vault.yml -l $1 --tag user --vault-password-file /root/.vault_password_file
+# SCRIPT
+
+
+Vagrant.configure(2) do |config|
+  # config.vbguest.auto_update = false
+
+  if Vagrant.has_plugin?("vagrant-cachier")
+    config.cache.scope = :box
+  end
+
+  vhosts = [
+    {
+      "config_name" => "ansible-ubuntu-error",
+      "instance_name" => "ansible-ubuntu-error",
+      "ip" => "192.168.33.100",
+      "vbox" => "bento/ubuntu-18.04",
+      "cpu" => 1,
+      "memory" => 1024,
+      "inventory" => "vagrant-local"
+    }
+  ]
+
+  vhosts.each do |vhost|
+    config.vm.define vhost["config_name"] do |server|
+      ### determined specific IP.
+      server.vm.network "private_network", ip: vhost["ip"]
+      ### hostname of server
+      server.vm.hostname = vhost["instance_name"]
+      ### box setting
+      server.vm.box = vhost["vbox"]
+      ### vm setting
+      server.vm.provider "virtualbox" do |vb|
+        ### name of virtualbox
+        vb.name = vhost["instance_name"]
+        ### spec define
+        vb.cpus = vhost["cpu"]
+        vb.memory = vhost["memory"]
+        vb.customize ['modifyvm', :id,"--natdnshostresolver1", "on"]
+        vb.customize ['modifyvm', :id,"--natdnsproxy1", "on"]
+      end
+  
+      ### settitng of synced_folder
+      server.vm.synced_folder "../../", "/develop/vg-ubuntu18", \
+        :create => true, \
+        :owner  => 'vagrant', \
+        :group  => 'vagrant', \
+        :mount_options => ['dmode=755,fmode=755']
+  
+      server.vm.provision "shell" do |shell|
+        shell.inline = $script
+        shell.args   = vhost["inventory"]
+      end
+    end
+  end
+end
+
