@@ -2,7 +2,7 @@
 
 ## Gif
 
-![](./movie.gif)
+![](./movie/main.gif)
 
 ## 使用している記事
 
